@@ -29,16 +29,9 @@
                 "scopeName": "source.tmats",
                 "path": "./syntaxes/tmats.tmLanguage.json"
             }
-        ],
-        "commands": [
-            {
-                "command": "test.helloWorld",
-                "title": "Hello World"
-            }
         ]
     },
     "activationEvents": [
-        "onCommand:test.helloWorld"
     ],
     "main": "./out/extension.js",
     "scripts": {
